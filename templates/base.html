@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html dir='rtl' lang="en">
+<head> <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://semantic-ui.com/dist/semantic.min.css">
+    <title>navbar</title>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id=”navbar”>
+  <a id=”login”>
+  <a id=”register”>
+  <a id=”homepage” href=”/”>
+
+<div class="ui inverted segment">
+  <div class="ui inverted secondary menu">
+    <a class="active item" href="/">
+      صفحه اصلی
+    </a>
+    <a class="item">
+      ورود
+    </a>
+    <a class="item">
+      ثبت نام
+    </a>
+  </div>
+</div>
+
+<div>
+    {% block content %}
+
+    {% endblock %}
+</div>
+
+</body>
+</html>
